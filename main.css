@@ -72,10 +72,10 @@ body {
 
 @media screen and (max-width: 730px) {
   .header-nav__button#search{
-    display: none; 
+    display: none;
   }
   .header-nav__button > .boards-label {
-    display: none; 
+    display: none;
   }
 }
 
@@ -86,7 +86,7 @@ body {
 
 .team__info {
   flex-direction: column;
-  margin: 0 auto; 
+  margin: 0 auto;
   max-width: 650px;
   text-align: center;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  .tabbed-nav__group, 
+  .tabbed-nav__group,
   .tabbed-nav__link {
     display: block;
   }
@@ -141,11 +141,12 @@ body {
 
 .boards__container {
   margin: 0 auto;
-  padding: 32px; 
+  padding: 32px;
   max-width: 1400px;
-  display: flexbox;
+  display: flex;
   flex-direction: column;
-  flex-wrap: wrap; 
+  border: 1px solid;
+  flex-wrap: wrap;
 }
 
 .boards__sidebar {
@@ -156,22 +157,22 @@ body {
   max-height: 130px;
   max-width: 180px;
   width: 20%;
-  flex: none; 
+  flex: none;
   flex-basis: 220px;
 
 }
 
 .boards__sidebar-content > .title, a {
-  color: white; 
+  color: white;
 }
 
 .boards__sidebar-content > .description {
-  color: lightblue; 
+  color: lightblue;
 }
 
-.boards__grpup {
-  display: flex; 
-  flex-wrap: wrap; 
+.boards__group {
+  display: flex;
+  flex-wrap: wrap;
   width: 80%;
 }
 
@@ -188,7 +189,7 @@ body {
   max-width: 250px;
   padding: 4px 8px;
   position: relative;
-  color: white; 
+  color: white;
   width: 25%
 }
 
@@ -202,7 +203,7 @@ body {
 
 @media screen and (max-width: 750px) {
   .boards__board {
-    width: 100%; 
+    width: 100%;
     max-width: none;
   }
 }
